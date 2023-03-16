@@ -2,7 +2,7 @@
 
 This is a Python script that finds all the open reading frames (ORFs) in a given genome sequence, and writes the results to a file. It also writes the top N (default: 20) ORFs by length for each start codon into the same file. The script takes in a genetic code file, a genome file, and the minimum and maximum length threshold as input parameters.
 
-The module contains several functions that perform different tasks:
+The script contains several functions that perform different tasks:
 * **read_genetic_code**: Reads a file containing the genetic code and returns the start and stop codons.
 *	**read_genome**: Reads a file containing the genome sequence and returns the genome.
 *	**reverse_complement**: Returns the reverse complement of a DNA sequence.
@@ -38,7 +38,7 @@ where:
 
 # Contributions
 
-Contributions to the ORF Finder project are welcome. Please create a pull request or open an issue to suggest new features, report bugs, or ask questions.
+Contributions to the ORF Finder are welcome. Please create a pull request or open an issue to suggest new features, report bugs, or ask questions.
 
 # License
 
