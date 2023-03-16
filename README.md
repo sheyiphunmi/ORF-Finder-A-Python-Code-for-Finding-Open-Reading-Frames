@@ -7,16 +7,22 @@ The module contains several functions that perform different tasks:
 *	**read_genome**: Reads a file containing the genome sequence and returns the genome.
 *	**reverse_complement**: Returns the reverse complement of a DNA sequence.
 *	**find_sort_orfs**: Finds all the open reading frames (ORFs) in a genome sequence and writes the results to a file. Also writes the top N orfs by length for each start codon into the same file.
-*	**top_n_orfs**: Sorts the ORFs by length and writes the top N (default (a list) : (13,15,18,21)) ORFs by length to a text file. Takes in a list of dictionaries containing the ORFs for each start codon, the name of the output file, and the number of top ORFs to write to the output file.
+*	**top_n_orfs**: Sorts the ORFs by length and writes the top N (default: 13,15,18,21) ORFs by length to a text file. Takes in a list of dictionaries containing the ORFs for each start codon, the name of the output file, and the number of top ORFs to write to the output file.
 
 
 # Usage
 
 1. Clone the repository:
-```git clone https://github.com/sheyiphunmi/ORF-Finder-A-Python-Code-for-Finding-Open-Reading-Frames```
+
+```
+git clone https://github.com/sheyiphunmi/ORF-Finder-A-Python-Code-for-Finding-Open-Reading-Frames.git
+```
 
 2. Run the Scripts
-```python orf_finder.py <genome_file_name> <genetic_code_file_name> <min_len_threshold> <max_len_threshold>```
+ 
+```
+python orf_finder.py <genome_file_name> <genetic_code_file_name> <min_len_threshold> <max_len_threshold>
+```
 
 where:
 
