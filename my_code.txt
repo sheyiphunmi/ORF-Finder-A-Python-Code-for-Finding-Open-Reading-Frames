@@ -1,0 +1,3 @@
+Starts in the first line, stops in the second
+ATG ATA
+AGA AGG TAA TAG
