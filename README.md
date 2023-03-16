@@ -27,7 +27,7 @@ python orf_finder.py <genome_file_name> <genetic_code_file_name> <min_len_thresh
 where:
 
 * <genome_file_name>: The name of the FASTA file containing the genome sequence.
-* <genetic_code_file_name>: The name of the text file containing the genetic code table. The first line of the file is expected to have the start codons seperated by space abd the third line is expected to have the stop codons seperated by space
+* <genetic_code_file_name>: The name of the text file containing the genetic code table. The first line of the file is expected to have the start codons seperated by space and the third line is expected to have the stop codons seperated by space
 * <min_len_threshold>: The minimum ORF length threshold (optional).
 * <max_len_threshold>: The maximum ORF length threshold (optional).
 
